@@ -33,11 +33,11 @@ let globalConfig = {
 
 const PRECONFIGURED_BOTS = [
     {
-        nome: "TutuDeFeijaum",
+        nome: "SeuBot1",
         server: "healtzcraft.com",
         port: 25565,
         version: "1.21.4",
-        senha: "10563210",
+        senha: "SenhaAqui",
         autoSequence: true,
         commands: [
             "/login {senha}",
@@ -46,11 +46,11 @@ const PRECONFIGURED_BOTS = [
         ]
     },
     {
-        nome: "GrampeadorAzul",
+        nome: "SeuBot2",
         server: "healtzcraft.com",
         port: 25565,
         version: "1.21.4",
-        senha: "10563210",
+        senha: "SenhaAqui",
         autoSequence: true,
         commands: [
             "/login {senha}",
@@ -59,11 +59,11 @@ const PRECONFIGURED_BOTS = [
         ]
     },
     {
-        nome: "Batatinha",
+        nome: "SeuBot3",
         server: "healtzcraft.com",
         port: 25565,
         version: "1.21.4",
-        senha: "10563210",
+        senha: "SenhaAqui",
         autoSequence: true,
         commands: [
             "/login {senha}",
@@ -139,7 +139,7 @@ class CommandScheduler {
             console.log(`[${this.botData.nome}] ⚠️ Nenhum comando`);
             return;
         }
-        
+
         this.isRunning = true;
         
         // Aguarda o resource pack ser aceito primeiro
