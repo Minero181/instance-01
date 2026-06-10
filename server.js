@@ -59,7 +59,7 @@ const PRECONFIGURED_BOTS = [
         ]
     },
     {
-        nome: "PescaMinero",
+        nome: "Batatinha",
         server: "healtzcraft.com",
         port: 25565,
         version: "1.21.4",
