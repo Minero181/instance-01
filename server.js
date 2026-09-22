@@ -24,8 +24,8 @@ let globalConfig = { webServerPort: process.env.PORT || 3000 };
 
 const PRECONFIGURED_BOTS = [
     {
-        nome: "MineroPesca",
-        server: "healtzcraft.com",
+        nome: "Batatinha",
+        server: "redeneon.com",
         port: 25565,
         version: "1.21.4",
         senha: "10563210",
@@ -33,20 +33,20 @@ const PRECONFIGURED_BOTS = [
         commands: ["/login {senha}", "/skyblock", "/ac"]
     },
     {
-        nome: "PandaPesca",
-        server: "healtzcraft.com",
+        nome: "nick",
+        server: "ip",
         port: 25565,
         version: "1.21.4",
-        senha: "12081408",
+        senha: " senha ",
         autoSequence: true,
         commands: ["/login {senha}", "/skyblock", "/ac"]
     },
     {
-        nome: "CocaCola",
-        server: "healtzcraft.com",
+        nome: "nick",
+        server: "ip",
         port: 25565,
         version: "1.21.4",
-        senha: "10563210",
+        senha: "senha",
         autoSequence: true,
         commands: ["/login {senha}", "/skyblock", "/ac"]
     }
